@@ -1,0 +1,37 @@
+if (biological_process <= 0.337398961186409) and (molecular_function <= 0.6483429372310638): class = 0
+if (0.337398961186409 < biological_process <= 0.3374353498220444) and (molecular_function <= 0.6483429372310638): class = 1
+if (0.3374353498220444 < biological_process <= 0.441503643989563) and (molecular_function <= 0.6483429372310638): class = 0
+if (biological_process <= 0.441503643989563) and (molecular_function > 0.6483429372310638): class = 0
+if (0.441503643989563 < biological_process <= 0.5298484265804291) and (molecular_function <= 0.769923061132431): class = 0
+if (0.441503643989563 < biological_process <= 0.5298484265804291) and (cellular_component <= 0.7157960832118988) and (molecular_function > 0.769923061132431): class = 0
+if (0.441503643989563 < biological_process <= 0.5298484265804291) and (cellular_component > 0.7157960832118988) and (0.769923061132431 < molecular_function <= 0.8340069353580475): class = 0
+if (0.441503643989563 < biological_process <= 0.5298484265804291) and (cellular_component > 0.7157960832118988) and (molecular_function > 0.8340069353580475): class = 1
+if (0.5298484265804291 < biological_process <= 0.5627246499061584) and (molecular_function <= 0.8367590606212616): class = 0
+if (0.5627246499061584 < biological_process <= 0.5822456181049347) and (cellular_component <= 0.8084271252155304) and (molecular_function <= 0.8367590606212616): class = 0
+if (0.5627246499061584 < biological_process <= 0.5822456181049347) and (cellular_component > 0.8084271252155304) and (molecular_function <= 0.8367590606212616): class = 1
+if (0.5298484265804291 < biological_process <= 0.5822456181049347) and (cellular_component <= 0.7196458280086517) and (0.8367590606212616 < molecular_function <= 0.8413567543029785): class = 1
+if (0.5298484265804291 < biological_process <= 0.5822456181049347) and (cellular_component <= 0.7196458280086517) and (molecular_function > 0.8413567543029785): class = 0
+if (0.5298484265804291 < biological_process <= 0.5822456181049347) and (cellular_component > 0.7196458280086517) and (molecular_function > 0.8367590606212616): class = 1
+if (0.5822456181049347 < biological_process <= 0.6188097894191742) and (cellular_component <= 0.41080087423324585) and (molecular_function <= 0.6422996819019318): class = 1
+if (0.5822456181049347 < biological_process <= 0.6188097894191742) and (0.41080087423324585 < cellular_component <= 0.8246705532073975) and (molecular_function <= 0.6422996819019318): class = 0
+if (0.5822456181049347 < biological_process <= 0.6188097894191742) and (0.8246705532073975 < cellular_component <= 0.9239287674427032) and (molecular_function <= 0.6422996819019318): class = 1
+if (0.5822456181049347 < biological_process <= 0.6188097894191742) and (cellular_component > 0.9239287674427032) and (molecular_function <= 0.6422996819019318): class = 0
+if (0.5822456181049347 < biological_process <= 0.6188097894191742) and (molecular_function > 0.6422996819019318): class = 1
+if (0.6188097894191742 < biological_process <= 0.6540575921535492) and (molecular_function <= 0.7257826626300812): class = 1
+if (0.6188097894191742 < biological_process <= 0.6540575921535492) and (0.7257826626300812 < molecular_function <= 0.7829276025295258): class = 1
+if (0.6188097894191742 < biological_process <= 0.6540575921535492) and (0.7829276025295258 < molecular_function <= 0.7860302031040192): class = 0
+if (0.6188097894191742 < biological_process <= 0.6540575921535492) and (molecular_function > 0.7860302031040192): class = 1
+if (0.6540575921535492 < biological_process <= 0.7104757130146027): class = 1
+if (0.7104757130146027 < biological_process <= 0.7302038669586182) and (cellular_component <= 0.29965558648109436) and (molecular_function <= 0.6083212196826935): class = 0
+if (0.7104757130146027 < biological_process <= 0.7302038669586182) and (cellular_component > 0.29965558648109436) and (molecular_function <= 0.6083212196826935): class = 1
+if (0.7302038669586182 < biological_process <= 0.7696203291416168) and (molecular_function <= 0.6083212196826935): class = 1
+if (0.7104757130146027 < biological_process <= 0.7696203291416168) and (0.6083212196826935 < molecular_function <= 0.7367797195911407): class = 1
+if (0.7104757130146027 < biological_process <= 0.7696203291416168) and (cellular_component <= 0.3663382977247238) and (molecular_function > 0.7367797195911407): class = 0
+if (0.7104757130146027 < biological_process <= 0.7696203291416168) and (cellular_component > 0.3663382977247238) and (molecular_function > 0.7367797195911407): class = 1
+if (0.7696203291416168 < biological_process <= 0.8190044164657593) and (molecular_function <= 0.6176968812942505): class = 1
+if (0.7696203291416168 < biological_process <= 0.8190044164657593) and (0.6176968812942505 < molecular_function <= 0.6179502904415131): class = 0
+if (0.7696203291416168 < biological_process <= 0.8190044164657593) and (cellular_component <= 0.31903843581676483) and (molecular_function > 0.6179502904415131): class = 0
+if (0.7696203291416168 < biological_process <= 0.8190044164657593) and (cellular_component > 0.31903843581676483) and (molecular_function > 0.6179502904415131): class = 1
+if (biological_process > 0.8190044164657593) and (molecular_function <= 0.7612879872322083): class = 1
+if (biological_process > 0.8190044164657593) and (0.7612879872322083 < molecular_function <= 0.7613740861415863): class = 0
+if (biological_process > 0.8190044164657593) and (molecular_function > 0.7613740861415863): class = 1
