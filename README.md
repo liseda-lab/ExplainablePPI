@@ -7,4 +7,4 @@
 
 ## Methods
 
-<img src="https://github.com/liseda-labExplainablePPI/blob/main/Methodology.png"/>
+<img src="https://github.com/liseda-lab/ExplainablePPI/blob/main/Methodology.png"/>
