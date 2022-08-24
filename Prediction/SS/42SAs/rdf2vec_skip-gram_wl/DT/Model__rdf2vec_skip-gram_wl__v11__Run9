@@ -1,0 +1,2732 @@
+|--- cellular_process <= 0.78
+|   |--- cellular_process <= 0.70
+|   |   |--- metabolic_process <= 0.80
+|   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |--- cargo_receptor_activity <= 0.98
+|   |   |   |   |   |--- localization <= 0.91
+|   |   |   |   |   |   |--- immune_system_process <= 0.98
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- immune_system_process >  0.98
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- localization >  0.91
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cargo_receptor_activity >  0.98
+|   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.74
+|   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.74
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.94
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.96
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |--- biological_regulation <= 0.68
+|   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.68
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.76
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.76
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.80
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.80
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |--- binding <= 0.93
+|   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.93
+|   |   |   |   |   |   |--- catalytic_activity <= 0.95
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.80
+|   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- metabolic_process >  0.80
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- catalytic_activity >  0.95
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- behavior <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- behavior >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.77
+|   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- behavior <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- behavior >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.77
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.70
+|   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.70
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.62
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.62
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- metabolic_process >  0.80
+|   |   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |   |--- cargo_receptor_activity <= 0.98
+|   |   |   |   |   |--- structural_molecule_activity <= 0.99
+|   |   |   |   |   |   |--- cellular_process <= 0.65
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.65
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- structural_molecule_activity >  0.99
+|   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.99
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_adaptor_activity >  0.99
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cargo_receptor_activity >  0.98
+|   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.74
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.74
+|   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |--- biological_regulation <= 0.65
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.91
+|   |   |   |   |   |   |   |   |--- binding <= 0.72
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.72
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.91
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_regulation >  0.65
+|   |   |   |   |   |   |   |--- cellular_process <= 0.68
+|   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.63
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.63
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- cellular_process >  0.68
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |--- growth <= 0.99
+|   |   |   |   |   |   |   |   |--- locomotion <= 0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- locomotion >  0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- growth >  0.99
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.94
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.94
+|   |   |   |   |   |   |   |   |   |--- pigmentation <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- pigmentation >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |--- locomotion <= 0.93
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- locomotion >  0.93
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.70
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.70
+|   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |--- binding <= 0.81
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.81
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |--- biological_regulation <= 0.70
+|   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.98
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.66
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.66
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- structural_molecule_activity >  0.98
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.70
+|   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- localization >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |--- cellular_process >  0.70
+|   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |--- translation_regulator_activity <= 0.97
+|   |   |   |   |   |   |   |--- localization <= 0.96
+|   |   |   |   |   |   |   |   |--- binding <= 0.83
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.83
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- localization >  0.96
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- translation_regulator_activity >  0.97
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.84
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.84
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.84
+|   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.84
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |--- binding <= 0.84
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.84
+|   |   |   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.63
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- biological_regulation >  0.63
+|   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |--- small_molecule_sensor_activity <= 0.99
+|   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- locomotion <= 0.97
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- locomotion >  0.97
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.99
+|   |   |   |   |   |   |   |   |--- binding <= 0.76
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.76
+|   |   |   |   |   |   |   |   |   |--- growth <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- growth >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- small_molecule_sensor_activity >  0.99
+|   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.74
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.74
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.81
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.81
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.83
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.73
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- metabolic_process >  0.83
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.81
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.81
+|   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.99
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.64
+|   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.64
+|   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |--- binding <= 0.89
+|   |   |   |   |   |   |--- cellular_process <= 0.74
+|   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.74
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.89
+|   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |--- metabolic_process <= 0.84
+|   |   |   |   |--- localization <= 0.99
+|   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |--- catalytic_activity <= 0.91
+|   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- catalytic_activity >  0.91
+|   |   |   |   |   |   |   |--- locomotion <= 0.99
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.75
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- growth >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.75
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.75
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- locomotion >  0.99
+|   |   |   |   |   |   |   |   |--- localization <= 0.93
+|   |   |   |   |   |   |   |   |   |--- growth <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- growth >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- localization >  0.93
+|   |   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |--- localization <= 0.96
+|   |   |   |   |   |   |   |--- binding <= 0.91
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.91
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.68
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.68
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- localization >  0.96
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.71
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.71
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- localization >  0.99
+|   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.93
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.93
+|   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |--- binding <= 0.97
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- binding >  0.97
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.69
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- growth <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- growth >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- biological_regulation >  0.69
+|   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- metabolic_process >  0.84
+|   |   |   |   |--- binding <= 0.90
+|   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.85
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.85
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.88
+|   |   |   |   |   |   |   |   |   |--- signaling <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- signaling >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.88
+|   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.90
+|   |   |   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.92
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.89
+|   |   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.89
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.92
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.94
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.94
+|   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.89
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.89
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |   |   |--- biological_regulation <= 0.85
+|   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.85
+|   |   |   |   |   |   |   |--- locomotion <= 0.94
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- locomotion >  0.94
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.95
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|--- cellular_process >  0.78
+|   |--- cellular_process <= 0.87
+|   |   |--- cellular_anatomical_entity <= 0.85
+|   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |--- biological_regulation <= 0.79
+|   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |--- metabolic_process <= 0.88
+|   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.99
+|   |   |   |   |   |   |   |   |   |--- transporter_activity <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- transporter_activity >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- growth >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.94
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.94
+|   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- metabolic_process >  0.88
+|   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.84
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.84
+|   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.99
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.92
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.92
+|   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.79
+|   |   |   |   |   |--- biological_regulation <= 0.98
+|   |   |   |   |   |   |--- metabolic_process <= 0.78
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.99
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- metabolic_process >  0.78
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.96
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.77
+|   |   |   |   |   |   |   |   |   |--- signaling <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- signaling >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.77
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.89
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.89
+|   |   |   |   |   |   |   |   |   |   |--- behavior <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- behavior >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- metabolic_process >  0.96
+|   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.98
+|   |   |   |   |   |   |--- locomotion <= 0.96
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- locomotion >  0.96
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.99
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.99
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |--- response_to_stimulus <= 0.98
+|   |   |   |   |   |--- biological_regulation <= 0.67
+|   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.94
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.94
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.99
+|   |   |   |   |   |   |   |   |--- binding <= 0.93
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.93
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_regulation >  0.67
+|   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |--- binding <= 0.89
+|   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- binding >  0.89
+|   |   |   |   |   |   |   |   |--- binding <= 0.96
+|   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- binding >  0.96
+|   |   |   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |--- binding <= 0.84
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- binding >  0.84
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- response_to_stimulus >  0.98
+|   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.99
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- growth >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.99
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |--- cellular_process <= 0.82
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.84
+|   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- metabolic_process >  0.84
+|   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.82
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.99
+|   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.97
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_adhesion >  0.97
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- biological_regulation >  0.99
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.85
+|   |   |   |--- molecular_function_regulator <= 0.93
+|   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |--- localization <= 0.99
+|   |   |   |   |   |   |--- virion_part <= 0.99
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- virion_part >  0.99
+|   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.86
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.86
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.99
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- localization >  0.99
+|   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |--- antioxidant_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- binding <= 0.85
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.85
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- antioxidant_activity >  0.99
+|   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.98
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_adhesion >  0.98
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.49
+|   |   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |--- binding <= 0.84
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.84
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |--- biological_regulation <= 0.71
+|   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.98
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |--- developmental_process <= 0.95
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- developmental_process >  0.95
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_regulation >  0.71
+|   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- antioxidant_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- reproduction >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.99
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.95
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.95
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- molecular_function_regulator >  0.93
+|   |   |   |   |--- cellular_process <= 0.82
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- biological_regulation <= 0.74
+|   |   |   |   |   |   |   |--- behavior <= 1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- behavior >  1.00
+|   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.94
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_regulation >  0.74
+|   |   |   |   |   |   |   |--- growth <= 1.00
+|   |   |   |   |   |   |   |   |--- immune_system_process <= 0.98
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- immune_system_process >  0.98
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- growth >  1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_template_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.76
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.76
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |   |   |   |--- binding <= 0.92
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.83
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.83
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- binding >  0.92
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.78
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.78
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- cellular_process >  0.82
+|   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |--- biological_regulation <= 0.75
+|   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.90
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- localization >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.90
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_carrier_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.75
+|   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.97
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.97
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |--- signaling <= 0.94
+|   |   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- signaling >  0.94
+|   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.94
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.94
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.76
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.91
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.91
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.76
+|   |   |   |   |   |   |   |   |--- localization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- localization >  1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.93
+|   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- growth <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- growth >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.93
+|   |   |   |   |   |   |   |   |--- binding <= 0.90
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.88
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.88
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |--- binding >  0.90
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |--- cellular_process >  0.87
+|   |   |--- cellular_anatomical_entity <= 0.84
+|   |   |   |--- biological_regulation <= 0.71
+|   |   |   |   |--- antioxidant_activity <= 0.99
+|   |   |   |   |   |--- catalytic_activity <= 0.92
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.92
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- antioxidant_activity >  0.99
+|   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |--- molecular_function_regulator <= 0.99
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.66
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.82
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.82
+|   |   |   |   |   |   |   |   |   |   |--- growth <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- growth >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.66
+|   |   |   |   |   |   |   |   |   |--- other_organism_part <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- other_organism_part >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |--- transporter_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- transporter_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function_regulator >  0.99
+|   |   |   |   |   |   |   |--- biomineralization <= 0.99
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.90
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.90
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biomineralization >  0.99
+|   |   |   |   |   |   |   |   |--- virion_part <= 0.99
+|   |   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- virion_part >  0.99
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.89
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.89
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- intraspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |--- developmental_process <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- developmental_process >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- biological_regulation >  0.71
+|   |   |   |   |--- binding <= 0.86
+|   |   |   |   |   |--- structural_molecule_activity <= 0.97
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- structural_molecule_activity >  0.97
+|   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.99
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.99
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.82
+|   |   |   |   |   |   |   |   |   |   |--- signaling <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- signaling >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.91
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.92
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.92
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.91
+|   |   |   |   |   |   |   |   |--- transporter_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- transporter_activity >  0.96
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |--- binding >  0.86
+|   |   |   |   |   |--- catalytic_activity <= 0.87
+|   |   |   |   |   |   |--- molecular_function_regulator <= 1.00
+|   |   |   |   |   |   |   |--- structural_molecule_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- pigmentation >  0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- structural_molecule_activity >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function_regulator >  1.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.87
+|   |   |   |   |   |   |--- metabolic_process <= 0.75
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- metabolic_process >  0.75
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.93
+|   |   |   |   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.93
+|   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_sequestering_activity >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |--- cellular_anatomical_entity >  0.84
+|   |   |   |--- cellular_process <= 0.91
+|   |   |   |   |--- molecular_transducer_activity <= 0.97
+|   |   |   |   |   |--- metabolic_process <= 0.97
+|   |   |   |   |   |   |--- locomotion <= 0.94
+|   |   |   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- locomotion >  0.94
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.85
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.85
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- metabolic_process >  0.97
+|   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |--- antioxidant_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- antioxidant_activity >  0.99
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |--- detoxification <= 1.00
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- detoxification >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |--- developmental_process <= 0.90
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- developmental_process >  0.90
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- molecular_transducer_activity >  0.97
+|   |   |   |   |   |--- binding <= 0.90
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.90
+|   |   |   |   |   |   |   |--- developmental_process <= 0.90
+|   |   |   |   |   |   |   |   |--- biomineralization <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biomineralization >  1.00
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- developmental_process >  0.90
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.95
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.90
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.89
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.89
+|   |   |   |   |   |   |   |   |--- other_organism_part <= 0.99
+|   |   |   |   |   |   |   |   |   |--- detoxification <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- detoxification >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- other_organism_part >  0.99
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |--- binding >  0.90
+|   |   |   |   |   |   |--- antioxidant_activity <= 0.99
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- antioxidant_activity >  0.99
+|   |   |   |   |   |   |   |--- growth <= 0.95
+|   |   |   |   |   |   |   |   |--- molecular_template_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_template_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- growth >  0.95
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.91
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- locomotion >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.91
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- signaling <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- signaling >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_process >  0.91
+|   |   |   |   |--- molecular_function_regulator <= 0.90
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- catalytic_activity <= 0.88
+|   |   |   |   |   |   |   |--- rhythmic_process <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- rhythmic_process >  1.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- catalytic_activity >  0.88
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- molecular_function_regulator >  0.90
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.91
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- fusogenic_activity >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_sequestering_activity >  1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.91
+|   |   |   |   |   |   |--- biological_regulation <= 0.80
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.90
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.90
+|   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- rhythmic_process >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |   |   |   |--- transporter_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- transporter_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_regulation >  0.80
+|   |   |   |   |   |   |   |--- cargo_receptor_activity <= 0.98
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cargo_receptor_activity >  0.98
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- nitrogen_utilization >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+
