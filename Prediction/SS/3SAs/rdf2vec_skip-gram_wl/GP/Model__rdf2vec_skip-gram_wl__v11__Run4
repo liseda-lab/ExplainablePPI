@@ -1,0 +1,1 @@
+add(min(mul(0.349, 0.349), add(-0.685, max(0.349, add(add(-0.685, max(add(add(-0.685, max(mul(X1, X1), max(add(-0.198, X2), add(mul(max(mul(X1, X1), max(add(-0.198, X2), add(mul(X0, mul(0.349, 0.349)), X0))), mul(0.349, 0.349)), X0)))), X2), X0)), X0)))), X0)
