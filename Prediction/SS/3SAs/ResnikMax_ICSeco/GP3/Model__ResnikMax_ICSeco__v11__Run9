@@ -1,0 +1,1 @@
+max(max(mul(X0, X0), 0.124), mul(mul(X1, X0), X1))
