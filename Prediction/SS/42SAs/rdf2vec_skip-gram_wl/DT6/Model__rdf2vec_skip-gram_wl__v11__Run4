@@ -1,0 +1,143 @@
+|--- cellular_process <= 0.79
+|   |--- cellular_process <= 0.70
+|   |   |--- metabolic_process <= 0.83
+|   |   |   |--- cellular_anatomical_entity <= 0.88
+|   |   |   |   |--- cargo_receptor_activity <= 0.98
+|   |   |   |   |   |--- localization <= 0.91
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.91
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cargo_receptor_activity >  0.98
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.88
+|   |   |   |   |--- binding <= 0.92
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.92
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- metabolic_process >  0.83
+|   |   |   |--- cellular_anatomical_entity <= 0.87
+|   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |--- virion_part <= 0.96
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- virion_part >  0.96
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |--- fusogenic_activity <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- fusogenic_activity >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.87
+|   |   |   |   |--- cargo_receptor_activity <= 1.00
+|   |   |   |   |   |--- virion_part <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- virion_part >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cargo_receptor_activity >  1.00
+|   |   |   |   |   |--- molecular_carrier_activity <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_carrier_activity >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.70
+|   |   |--- cellular_anatomical_entity <= 0.87
+|   |   |   |--- response_to_stimulus <= 0.99
+|   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |--- signaling <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- signaling >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- response_to_stimulus >  0.99
+|   |   |   |   |--- pigmentation <= 1.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pigmentation >  1.00
+|   |   |   |   |   |--- binding <= 0.89
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.89
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.87
+|   |   |   |--- metabolic_process <= 0.84
+|   |   |   |   |--- localization <= 0.99
+|   |   |   |   |   |--- cellular_process <= 0.74
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.74
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- localization >  0.99
+|   |   |   |   |   |--- biological_adhesion <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_adhesion >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.84
+|   |   |   |   |--- binding <= 0.89
+|   |   |   |   |   |--- nitrogen_utilization <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- nitrogen_utilization >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.89
+|   |   |   |   |   |--- class: 1
+|--- cellular_process >  0.79
+|   |--- cellular_process <= 0.86
+|   |   |--- cellular_anatomical_entity <= 0.85
+|   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |--- multi-organism_process <= 1.00
+|   |   |   |   |   |--- biological_regulation <= 0.76
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.76
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- multi-organism_process >  1.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |--- multicellular_organismal_process <= 1.00
+|   |   |   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- multicellular_organismal_process >  1.00
+|   |   |   |   |   |--- localization <= 0.91
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- localization >  0.91
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.85
+|   |   |   |--- molecular_transducer_activity <= 1.00
+|   |   |   |   |--- biological_regulation <= 0.75
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.90
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.90
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.75
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- molecular_transducer_activity >  1.00
+|   |   |   |   |--- cellular_process <= 0.82
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.96
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.96
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_process >  0.82
+|   |   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.86
+|   |   |--- cellular_anatomical_entity <= 0.83
+|   |   |   |--- biological_regulation <= 0.66
+|   |   |   |   |--- small_molecule_sensor_activity <= 1.00
+|   |   |   |   |   |--- metabolic_process <= 0.97
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- metabolic_process >  0.97
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- small_molecule_sensor_activity >  1.00
+|   |   |   |   |   |--- metabolic_process <= 1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- metabolic_process >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- biological_regulation >  0.66
+|   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |--- cellular_process <= 0.90
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.90
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.83
+|   |   |   |--- class: 1
+

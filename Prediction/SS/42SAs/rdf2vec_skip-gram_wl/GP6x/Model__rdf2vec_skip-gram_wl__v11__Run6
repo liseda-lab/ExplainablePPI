@@ -1,0 +1,1 @@
+min(min(min(X17, X15), min(X19, X4)), min(X19, X4))
