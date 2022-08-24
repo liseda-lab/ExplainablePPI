@@ -1,0 +1,11 @@
+|--- cellular_process <= 0.08
+|   |--- biological_regulation <= 0.07
+|   |   |--- class: 0
+|   |--- biological_regulation >  0.07
+|   |   |--- cellular_anatomical_entity <= 0.15
+|   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.15
+|   |   |   |--- class: 1
+|--- cellular_process >  0.08
+|   |--- class: 1
+

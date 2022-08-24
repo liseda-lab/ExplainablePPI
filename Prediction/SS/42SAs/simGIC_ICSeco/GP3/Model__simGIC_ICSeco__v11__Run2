@@ -1,0 +1,1 @@
+max(min(div(X1, X1), add(X15, X15)), add(X1, max(X17, X6)))
