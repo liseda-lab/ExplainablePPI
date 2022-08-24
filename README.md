@@ -12,11 +12,11 @@
 ## (1) Computing KG-based SS for each semantic aspect
 
 ```
-python3 SS_Calculation/run_SS_calculation_SAs.py
+python3 run_SS_calculation_SAs.py
 ```
 
 ## (2) Training a ML algorithm and Predicting on unseen data
 
 ```
-python3 Prediction/run_withPartitions.py
+python3 run_ML.py
 ```
