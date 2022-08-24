@@ -1,0 +1,1 @@
+min(add(max(min(add(add(add(max(X0, add(X2, X0)), X0), X0), X0), add(add(X1, X0), add(X1, X0))), min(max(X2, sub(0.140, add(add(add(add(add(add(add(add(X2, min(add(add(add(add(X2, X0), X0), X0), X0), add(add(X1, X0), add(X1, X0)))), X0), X0), X2), X0), X2), X0), X0))), 0.140)), X0), sub(0.140, -0.765))

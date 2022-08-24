@@ -1,0 +1,2513 @@
+|--- biological_process <= 0.10
+|   |--- biological_process <= 0.05
+|   |   |--- molecular_function <= 0.25
+|   |   |   |--- biological_process <= 0.00
+|   |   |   |   |--- molecular_function <= 0.00
+|   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |--- cellular_component <= 0.12
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- cellular_component >  0.12
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |--- cellular_component <= 0.38
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.38
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.00
+|   |   |   |   |   |--- cellular_component <= 0.27
+|   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.10
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.10
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_component >  0.27
+|   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.38
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.34
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.34
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.38
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |--- molecular_function <= 0.17
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.34
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.34
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.17
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- biological_process >  0.00
+|   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.03
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |--- cellular_component <= 0.40
+|   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.36
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.36
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |--- cellular_component >  0.40
+|   |   |   |   |   |   |   |--- molecular_function <= 0.00
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.62
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.62
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.00
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.75
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.75
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |--- cellular_component <= 0.58
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |--- cellular_component >  0.58
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- molecular_function >  0.25
+|   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |--- molecular_function <= 0.44
+|   |   |   |   |   |   |   |--- molecular_function <= 0.30
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.30
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.44
+|   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |--- cellular_component <= 0.03
+|   |   |   |   |   |   |   |--- cellular_component <= 0.00
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.00
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.03
+|   |   |   |   |   |   |   |--- molecular_function <= 0.78
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.78
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |--- cellular_component <= 0.03
+|   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.03
+|   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.42
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.42
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |--- biological_process <= 0.04
+|   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |--- biological_process >  0.04
+|   |   |   |   |   |   |   |--- molecular_function <= 0.30
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.30
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_component >  0.25
+|   |   |   |   |--- molecular_function <= 0.53
+|   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |--- cellular_component <= 0.30
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.30
+|   |   |   |   |   |   |   |--- cellular_component <= 0.47
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.44
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.44
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.47
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |--- cellular_component <= 0.41
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- cellular_component >  0.41
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.29
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.29
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.60
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.60
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.53
+|   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |--- biological_process <= 0.03
+|   |   |   |   |   |   |   |--- cellular_component <= 0.26
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.26
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.48
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.48
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.48
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.03
+|   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |--- molecular_function <= 0.80
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function >  0.80
+|   |   |   |   |   |   |   |--- class: 0
+|   |--- biological_process >  0.05
+|   |   |--- cellular_component <= 0.16
+|   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.12
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.12
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- molecular_function >  0.09
+|   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.56
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.56
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |--- molecular_function <= 0.57
+|   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.38
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.38
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- molecular_function >  0.57
+|   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |--- molecular_function <= 0.68
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.68
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.69
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.69
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_component >  0.16
+|   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.17
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.17
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.26
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.26
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |--- molecular_function <= 0.11
+|   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.27
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.27
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.43
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.53
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.53
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |--- molecular_function >  0.11
+|   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |--- molecular_function >  0.15
+|   |   |   |   |--- cellular_component <= 0.23
+|   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.26
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.26
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.23
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |--- molecular_function <= 0.38
+|   |   |   |   |   |   |   |--- molecular_function <= 0.37
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.33
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.33
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.35
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.38
+|   |   |   |   |   |   |   |--- cellular_component <= 0.23
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.49
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.49
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- cellular_component >  0.23
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_component >  0.23
+|   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |--- biological_process <= 0.06
+|   |   |   |   |   |   |   |--- cellular_component <= 0.44
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.44
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.06
+|   |   |   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.59
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.59
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.05
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.75
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.75
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.09
+|   |   |   |   |   |   |   |--- class: 0
+|--- biological_process >  0.10
+|   |--- biological_process <= 0.16
+|   |   |--- cellular_component <= 0.11
+|   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.03
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.03
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- molecular_function >  0.13
+|   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |--- molecular_function <= 0.53
+|   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.53
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |--- molecular_function <= 0.42
+|   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.15
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.15
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.42
+|   |   |   |   |   |   |--- biological_process <= 0.14
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.14
+|   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_component >  0.11
+|   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.07
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.07
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.24
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.24
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |--- cellular_component <= 0.22
+|   |   |   |   |   |   |--- cellular_component <= 0.22
+|   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.22
+|   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.22
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.22
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.22
+|   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |--- biological_process <= 0.14
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.14
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |--- biological_process >  0.14
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.14
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.80
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.80
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.88
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.25
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.25
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- molecular_function >  0.09
+|   |   |   |   |--- biological_process <= 0.12
+|   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |--- cellular_component <= 0.46
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.46
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.95
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.95
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |--- molecular_function <= 0.95
+|   |   |   |   |   |   |   |--- molecular_function <= 0.54
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.54
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.19
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- molecular_function >  0.95
+|   |   |   |   |   |   |   |--- biological_process <= 0.10
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.23
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.10
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_process >  0.12
+|   |   |   |   |   |--- cellular_component <= 0.44
+|   |   |   |   |   |   |--- cellular_component <= 0.44
+|   |   |   |   |   |   |   |--- cellular_component <= 0.11
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.11
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.17
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.17
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.43
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.43
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- cellular_component >  0.44
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.44
+|   |   |   |   |   |   |--- cellular_component <= 0.75
+|   |   |   |   |   |   |   |--- cellular_component <= 0.75
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- cellular_component >  0.75
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.75
+|   |   |   |   |   |   |   |--- class: 1
+|   |--- biological_process >  0.16
+|   |   |--- biological_process <= 0.20
+|   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |--- molecular_function <= 0.96
+|   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |--- molecular_function <= 0.30
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.29
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.29
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.30
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.50
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- molecular_function >  0.96
+|   |   |   |   |   |   |--- biological_process <= 0.17
+|   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.17
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_component >  0.09
+|   |   |   |   |--- molecular_function <= 0.06
+|   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |--- biological_process <= 0.17
+|   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.17
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.17
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.17
+|   |   |   |   |   |   |   |--- molecular_function <= 0.02
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.18
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- biological_process >  0.18
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.02
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.20
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- biological_process >  0.20
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |--- cellular_component <= 0.88
+|   |   |   |   |   |   |   |--- molecular_function <= 0.06
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- molecular_function >  0.06
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_component >  0.88
+|   |   |   |   |   |   |   |--- biological_process <= 0.18
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.18
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.06
+|   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |--- biological_process <= 0.20
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.19
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 24
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.19
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.82
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.82
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.20
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.20
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.20
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |--- biological_process <= 0.20
+|   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.14
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.38
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.38
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- biological_process >  0.20
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- biological_process >  0.20
+|   |   |   |--- cellular_component <= 0.10
+|   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.02
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.04
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |--- molecular_function >  0.10
+|   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.05
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.52
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.52
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_component >  0.05
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |--- biological_process <= 0.44
+|   |   |   |   |   |   |--- biological_process <= 0.44
+|   |   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.21
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.21
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_process >  0.44
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_process >  0.44
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_component >  0.10
+|   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |--- molecular_function <= 0.14
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |   |   |   |--- biological_process <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_process >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function >  0.14
+|   |   |   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.15
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.72
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.72
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.27
+|   |   |   |   |   |--- biological_process <= 0.43
+|   |   |   |   |   |   |--- biological_process <= 0.43
+|   |   |   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.19
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- molecular_function >  0.19
+|   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |--- biological_process >  0.43
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_process >  0.43
+|   |   |   |   |   |   |--- biological_process <= 0.55
+|   |   |   |   |   |   |   |--- biological_process <= 0.55
+|   |   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |   |--- molecular_function <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function >  0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- biological_process <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_process >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- biological_process >  0.55
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_process >  0.55
+|   |   |   |   |   |   |   |--- class: 1
+

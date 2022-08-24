@@ -1,0 +1,1 @@
+max(min(div(X1, X1), div(min(add(X1, X0), div(X0, 0.410)), 0.410)), max(max(mul(X1, X1), X2), X2))
