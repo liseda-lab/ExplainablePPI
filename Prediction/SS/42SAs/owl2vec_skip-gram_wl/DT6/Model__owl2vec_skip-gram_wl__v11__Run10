@@ -1,0 +1,137 @@
+|--- cellular_process <= 0.48
+|   |--- cellular_anatomical_entity <= 0.43
+|   |   |--- interspecies_interaction_between_organisms <= 0.97
+|   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |--- rhythmic_process <= 0.55
+|   |   |   |   |   |--- localization <= 0.89
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.89
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- rhythmic_process >  0.55
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_process >  0.41
+|   |   |   |   |--- developmental_process <= 0.40
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- developmental_process >  0.40
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.51
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.51
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- interspecies_interaction_between_organisms >  0.97
+|   |   |   |--- response_to_stimulus <= 0.32
+|   |   |   |   |--- locomotion <= 0.45
+|   |   |   |   |   |--- reproductive_process <= 0.42
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- reproductive_process >  0.42
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- locomotion >  0.45
+|   |   |   |   |   |--- cellular_process <= 0.42
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.42
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- response_to_stimulus >  0.32
+|   |   |   |   |--- nitrogen_utilization <= 0.99
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- nitrogen_utilization >  0.99
+|   |   |   |   |   |--- class: 0
+|   |--- cellular_anatomical_entity >  0.43
+|   |   |--- cellular_process <= 0.39
+|   |   |   |--- growth <= 0.98
+|   |   |   |   |--- rhythmic_process <= 0.99
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- rhythmic_process >  0.99
+|   |   |   |   |   |--- cellular_process <= 0.26
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.26
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- growth >  0.98
+|   |   |   |   |--- metabolic_process <= 0.44
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- metabolic_process >  0.44
+|   |   |   |   |   |--- biological_regulation <= 0.47
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.47
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_process >  0.39
+|   |   |   |--- metabolic_process <= 0.47
+|   |   |   |   |--- developmental_process <= 0.39
+|   |   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- developmental_process >  0.39
+|   |   |   |   |   |--- binding <= 0.71
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.71
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.47
+|   |   |   |   |--- metabolic_process <= 0.97
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- metabolic_process >  0.97
+|   |   |   |   |   |--- biological_regulation <= 0.56
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.56
+|   |   |   |   |   |   |--- class: 1
+|--- cellular_process >  0.48
+|   |--- cellular_process <= 0.55
+|   |   |--- cellular_anatomical_entity <= 0.42
+|   |   |   |--- response_to_stimulus <= 0.98
+|   |   |   |   |--- developmental_process <= 0.98
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- developmental_process >  0.98
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- response_to_stimulus >  0.98
+|   |   |   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |   |   |--- localization <= 0.38
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.38
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.42
+|   |   |   |--- metabolic_process <= 0.49
+|   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |--- binding <= 0.91
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.91
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |--- binding <= 0.44
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.44
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.49
+|   |   |   |   |--- metabolic_process <= 0.98
+|   |   |   |   |   |--- antioxidant_activity <= 0.80
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- antioxidant_activity >  0.80
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- metabolic_process >  0.98
+|   |   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.55
+|   |   |--- cellular_anatomical_entity <= 0.39
+|   |   |   |--- cellular_process <= 0.97
+|   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.97
+|   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |--- signaling <= 0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- signaling >  0.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.39
+|   |   |   |--- class: 1
+

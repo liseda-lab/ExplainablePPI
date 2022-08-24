@@ -1,0 +1,140 @@
+|--- cellular_process <= 0.48
+|   |--- cellular_anatomical_entity <= 0.43
+|   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |--- rhythmic_process <= 0.55
+|   |   |   |   |   |--- localization <= 0.89
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.89
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- rhythmic_process >  0.55
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_process >  0.41
+|   |   |   |   |--- developmental_process <= 0.40
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- developmental_process >  0.40
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.51
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.51
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |--- response_to_stimulus <= 0.32
+|   |   |   |   |--- cellular_process <= 0.42
+|   |   |   |   |   |--- locomotion <= 0.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- locomotion >  0.45
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.42
+|   |   |   |   |   |--- other_organism_part <= 1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- other_organism_part >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- response_to_stimulus >  0.32
+|   |   |   |   |--- nitrogen_utilization <= 0.99
+|   |   |   |   |   |--- biological_phase <= 1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_phase >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- nitrogen_utilization >  0.99
+|   |   |   |   |   |--- class: 0
+|   |--- cellular_anatomical_entity >  0.43
+|   |   |--- metabolic_process <= 0.46
+|   |   |   |--- developmental_process <= 0.38
+|   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- developmental_process >  0.38
+|   |   |   |   |--- cellular_process <= 0.38
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.38
+|   |   |   |   |   |--- binding <= 0.71
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.71
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- metabolic_process >  0.46
+|   |   |   |--- metabolic_process <= 0.97
+|   |   |   |   |--- metabolic_process <= 0.51
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.97
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.97
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- metabolic_process >  0.51
+|   |   |   |   |   |--- structural_molecule_activity <= 0.51
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- structural_molecule_activity >  0.51
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.97
+|   |   |   |   |--- biological_regulation <= 0.53
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_regulation >  0.53
+|   |   |   |   |   |--- class: 1
+|--- cellular_process >  0.48
+|   |--- cellular_process <= 0.55
+|   |   |--- cellular_anatomical_entity <= 0.42
+|   |   |   |--- response_to_stimulus <= 0.98
+|   |   |   |   |--- developmental_process <= 0.98
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- developmental_process >  0.98
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- response_to_stimulus >  0.98
+|   |   |   |   |--- interspecies_interaction_between_organisms <= 0.98
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.32
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.32
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- interspecies_interaction_between_organisms >  0.98
+|   |   |   |   |   |--- localization <= 0.38
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.38
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.42
+|   |   |   |--- metabolic_process <= 0.49
+|   |   |   |   |--- localization <= 0.98
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- localization >  0.98
+|   |   |   |   |   |--- biological_regulation <= 0.47
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.47
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- metabolic_process >  0.49
+|   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.55
+|   |   |--- cellular_anatomical_entity <= 0.39
+|   |   |   |--- cellular_process <= 0.97
+|   |   |   |   |--- cellular_process <= 0.64
+|   |   |   |   |   |--- biological_regulation <= 0.98
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_regulation >  0.98
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.64
+|   |   |   |   |   |--- virion_part <= 0.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- virion_part >  0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.97
+|   |   |   |   |--- reproduction <= 1.00
+|   |   |   |   |   |--- translation_regulator_activity <= 1.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- translation_regulator_activity >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- reproduction >  1.00
+|   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.39
+|   |   |   |--- cellular_process <= 0.57
+|   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.57
+|   |   |   |   |--- cellular_process <= 0.99
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_process >  0.99
+|   |   |   |   |   |--- class: 0
+
