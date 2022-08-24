@@ -1,0 +1,1 @@
+min(0.992, add(add(min(X1, max(X22, X17)), max(add(add(X17, max(X1, add(X39, X5))), add(X32, max(X22, X17))), add(X29, max(add(max(X29, X25), add(add(X19, X17), X33)), add(add(X32, add(X32, max(X22, X17))), add(add(X17, max(sub(X1, X3), add(X39, X5))), add(X11, mul(X15, add(sub(X37, X8), X22))))))))), add(X19, X17)))
