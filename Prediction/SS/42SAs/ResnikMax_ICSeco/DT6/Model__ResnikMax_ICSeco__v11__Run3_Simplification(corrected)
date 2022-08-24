@@ -1,0 +1,39 @@
+if (cellular_anatomical_entity <= 0.1161932721734047) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.03986246511340141) and (binding <= 0.26633719354867935): class = 1
+if (cellular_anatomical_entity <= 0.1161932721734047) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.03986246511340141) and (0.26633719354867935 < binding <= 0.4692501872777939): class = 0
+if (cellular_anatomical_entity > 0.1161932721734047) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.03986246511340141) and (binding <= 0.4692501872777939): class = 0
+if (biological_regulation <= 0.5483885407447815) and (0.03986246511340141 < cellular_process <= 0.6145413517951965) and (binding <= 0.4692501872777939): class = 0
+if (cellular_anatomical_entity <= 0.1161932721734047) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (0.4692501872777939 < binding <= 0.476709708571434): class = 1
+if (0.1161932721734047 < cellular_anatomical_entity <= 0.839941531419754) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (0.4692501872777939 < binding <= 0.476709708571434): class = 0
+if (cellular_anatomical_entity > 0.839941531419754) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (0.4692501872777939 < binding <= 0.476709708571434): class = 1
+if (cellular_anatomical_entity <= 0.8748509585857391) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (binding > 0.476709708571434): class = 0
+if (cellular_anatomical_entity > 0.8748509585857391) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (0.476709708571434 < binding <= 0.7387900054454803): class = 0
+if (cellular_anatomical_entity > 0.8748509585857391) and (biological_regulation <= 0.5483885407447815) and (cellular_process <= 0.6145413517951965) and (binding > 0.7387900054454803): class = 1
+if (cellular_anatomical_entity <= 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.7291713356971741) and (cellular_process <= 0.5526256859302521): class = 0
+if (cellular_anatomical_entity <= 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.7291713356971741) and (0.5526256859302521 < cellular_process <= 0.5541459321975708): class = 1
+if (cellular_anatomical_entity <= 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.7291713356971741) and (0.5541459321975708 < cellular_process <= 0.6145413517951965): class = 0
+if (cellular_anatomical_entity <= 0.7176711857318878) and (biological_regulation > 0.7291713356971741) and (cellular_process <= 0.03986246511340141): class = 1
+if (cellular_anatomical_entity <= 0.7176711857318878) and (biological_regulation > 0.7291713356971741) and (0.03986246511340141 < cellular_process <= 0.5441571176052094): class = 0
+if (cellular_anatomical_entity <= 0.7176711857318878) and (biological_regulation > 0.7291713356971741) and (0.5441571176052094 < cellular_process <= 0.6145413517951965) and (catalytic_activity <= 0.3388577699661255): class = 1
+if (cellular_anatomical_entity <= 0.7176711857318878) and (biological_regulation > 0.7291713356971741) and (0.5441571176052094 < cellular_process <= 0.6145413517951965) and (catalytic_activity > 0.3388577699661255): class = 0
+if (cellular_anatomical_entity > 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.8772070109844208) and (cellular_process <= 0.533871591091156) and (binding <= 0.6825829446315765): class = 0
+if (cellular_anatomical_entity > 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.8772070109844208) and (0.533871591091156 < cellular_process <= 0.6145413517951965) and (binding <= 0.6825829446315765): class = 1
+if (cellular_anatomical_entity > 0.7176711857318878) and (0.5483885407447815 < biological_regulation <= 0.8772070109844208) and (cellular_process <= 0.6145413517951965) and (binding > 0.6825829446315765): class = 1
+if (0.7176711857318878 < cellular_anatomical_entity <= 0.8748509585857391) and (biological_regulation > 0.8772070109844208) and (cellular_process <= 0.6145413517951965): class = 1
+if (cellular_anatomical_entity > 0.8748509585857391) and (biological_regulation > 0.8772070109844208) and (cellular_process <= 0.6145413517951965) and (locomotion <= 0.3283855468034744): class = 1
+if (cellular_anatomical_entity > 0.8748509585857391) and (biological_regulation > 0.8772070109844208) and (cellular_process <= 0.6145413517951965) and (locomotion > 0.3283855468034744): class = 0
+if (cellular_anatomical_entity <= 0.1161932721734047) and (biological_regulation <= 0.6923123598098755) and (metabolic_process <= 0.20792744308710098) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 0
+if (cellular_anatomical_entity <= 0.1161932721734047) and (biological_regulation <= 0.6923123598098755) and (metabolic_process > 0.20792744308710098) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 1
+if (0.1161932721734047 < cellular_anatomical_entity <= 0.7588843107223511) and (biological_regulation <= 0.6923123598098755) and (0.6145413517951965 < cellular_process <= 0.7530770599842072) and (binding <= 0.46250978112220764): class = 0
+if (0.1161932721734047 < cellular_anatomical_entity <= 0.7588843107223511) and (biological_regulation <= 0.6923123598098755) and (0.6145413517951965 < cellular_process <= 0.7530770599842072) and (binding > 0.46250978112220764): class = 1
+if (cellular_anatomical_entity <= 0.7588843107223511) and (biological_regulation > 0.6923123598098755) and (localization <= 0.13603925704956055) and (0.6145413517951965 < cellular_process <= 0.6469094455242157): class = 0
+if (cellular_anatomical_entity <= 0.7588843107223511) and (biological_regulation > 0.6923123598098755) and (localization > 0.13603925704956055) and (0.6145413517951965 < cellular_process <= 0.6469094455242157): class = 1
+if (cellular_anatomical_entity <= 0.7588843107223511) and (biological_regulation > 0.6923123598098755) and (0.6469094455242157 < cellular_process <= 0.7530770599842072): class = 1
+if (cellular_anatomical_entity > 0.7588843107223511) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 1
+if (cellular_anatomical_entity <= 0.7008311152458191) and (biological_regulation <= 0.7229863107204437) and (immune_system_process <= 0.10803768038749695) and (metabolic_process <= 0.6047515869140625) and (cellular_process > 0.7530770599842072): class = 1
+if (cellular_anatomical_entity <= 0.7008311152458191) and (biological_regulation <= 0.7229863107204437) and (immune_system_process > 0.10803768038749695) and (metabolic_process <= 0.6047515869140625) and (cellular_process > 0.7530770599842072): class = 0
+if (cellular_anatomical_entity <= 0.7008311152458191) and (biological_regulation > 0.7229863107204437) and (metabolic_process <= 0.6047515869140625) and (cellular_process > 0.7530770599842072): class = 1
+if (cellular_anatomical_entity > 0.7008311152458191) and (metabolic_process <= 0.6047515869140625) and (cellular_process > 0.7530770599842072): class = 1
+if (cellular_anatomical_entity <= 0.6770772635936737) and (metabolic_process > 0.6047515869140625) and (0.7530770599842072 < cellular_process <= 0.7612455189228058): class = 1
+if (0.6770772635936737 < cellular_anatomical_entity <= 0.7039756178855896) and (metabolic_process > 0.6047515869140625) and (0.7530770599842072 < cellular_process <= 0.7612455189228058): class = 0
+if (cellular_anatomical_entity <= 0.7039756178855896) and (metabolic_process > 0.6047515869140625) and (cellular_process > 0.7612455189228058): class = 1
+if (cellular_anatomical_entity > 0.7039756178855896) and (metabolic_process > 0.6047515869140625) and (cellular_process > 0.7530770599842072): class = 1

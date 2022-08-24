@@ -1,0 +1,1 @@
+min(max(add(add(add(X19, X17), X8), X8), add(X8, X4)), min(max(add(add(X19, X17), X8), X40), max(X17, max(X39, X19))))

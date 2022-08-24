@@ -1,0 +1,95 @@
+|--- cellular_process <= 0.61
+|   |--- biological_regulation <= 0.55
+|   |   |--- binding <= 0.47
+|   |   |   |--- cellular_process <= 0.04
+|   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |--- binding <= 0.12
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_process >  0.04
+|   |   |   |   |--- class: 0
+|   |   |--- binding >  0.47
+|   |   |   |--- binding <= 0.48
+|   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.80
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.80
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- binding >  0.48
+|   |   |   |   |--- cellular_anatomical_entity <= 0.87
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.87
+|   |   |   |   |   |--- binding <= 0.73
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.73
+|   |   |   |   |   |   |--- class: 1
+|   |--- biological_regulation >  0.55
+|   |   |--- cellular_anatomical_entity <= 0.72
+|   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |--- class: 0
+|   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |--- cellular_process <= 0.54
+|   |   |   |   |   |--- cellular_process <= 0.04
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.54
+|   |   |   |   |   |--- locomotion <= 0.42
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- locomotion >  0.42
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.72
+|   |   |   |--- biological_regulation <= 0.88
+|   |   |   |   |--- binding <= 0.69
+|   |   |   |   |   |--- cellular_process <= 0.53
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.53
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.69
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- biological_regulation >  0.88
+|   |   |   |   |--- class: 1
+|--- cellular_process >  0.61
+|   |--- cellular_process <= 0.75
+|   |   |--- cellular_anatomical_entity <= 0.76
+|   |   |   |--- biological_regulation <= 0.69
+|   |   |   |   |--- binding <= 0.46
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.46
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- biological_regulation >  0.69
+|   |   |   |   |--- cellular_process <= 0.65
+|   |   |   |   |   |--- localization <= 0.14
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- localization >  0.14
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_process >  0.65
+|   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.76
+|   |   |   |--- class: 1
+|   |--- cellular_process >  0.75
+|   |   |--- metabolic_process <= 0.60
+|   |   |   |--- cellular_process <= 0.85
+|   |   |   |   |--- biological_regulation <= 0.73
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.57
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.57
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.73
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.85
+|   |   |   |   |--- class: 1
+|   |   |--- metabolic_process >  0.60
+|   |   |   |--- class: 1
+
