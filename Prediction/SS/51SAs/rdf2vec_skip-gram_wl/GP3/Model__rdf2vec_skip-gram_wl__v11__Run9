@@ -1,0 +1,1 @@
+sub(mul(add(X18, X31), mul(X22, X27)), min(mul(X44, X22), min(X22, X28)))
