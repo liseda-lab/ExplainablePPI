@@ -9,14 +9,6 @@
 
 <img src="https://github.com/liseda-lab/ExplainablePPI/blob/main/Methodology.png"/>
 
-## (1) Computing KG-based SS for each semantic aspect
-
-```
-python3 run_SS_calculation_SAs.py
-```
-
-## (2) Training a ML algorithm and Predicting on unseen data
-
 ```
 python3 run_ML.py
 ```
