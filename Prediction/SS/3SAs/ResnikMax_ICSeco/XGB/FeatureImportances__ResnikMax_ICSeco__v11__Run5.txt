@@ -1,0 +1,4 @@
+biological_process    0.424286
+cellular_component    0.262857
+molecular_function    0.312857
+dtype: float32
