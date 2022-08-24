@@ -9,6 +9,8 @@
 
 <img src="https://github.com/liseda-lab/ExplainablePPI/blob/main/Methodology.png"/>
 
+Run the command:
+
 ```
 python3 run_ML.py
 ```
