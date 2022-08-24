@@ -1,0 +1,134 @@
+|--- cellular_process <= 0.08
+|   |--- cellular_anatomical_entity <= 0.21
+|   |   |--- cellular_anatomical_entity <= 0.00
+|   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |--- binding <= 0.28
+|   |   |   |   |   |--- binding <= 0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.28
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.00
+|   |   |   |   |--- binding <= 0.34
+|   |   |   |   |   |--- molecular_function_regulator <= 0.83
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function_regulator >  0.83
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.34
+|   |   |   |   |   |--- response_to_stimulus <= 0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- response_to_stimulus >  0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.00
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- biological_regulation <= 0.07
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.26
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.26
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.07
+|   |   |   |   |   |--- biological_regulation <= 0.24
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.24
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- biological_regulation <= 0.06
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.25
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.25
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.06
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.07
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.07
+|   |   |   |   |   |   |--- class: 1
+|   |--- cellular_anatomical_entity >  0.21
+|   |   |--- biological_regulation <= 0.09
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.39
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.39
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |--- localization <= 0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- localization >  0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |--- catalytic_activity <= 0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- biological_regulation >  0.09
+|   |   |   |--- binding <= 0.12
+|   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |--- biological_regulation <= 0.28
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.28
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- binding >  0.12
+|   |   |   |   |--- class: 1
+|--- cellular_process >  0.08
+|   |--- cellular_process <= 0.15
+|   |   |--- biological_regulation <= 0.10
+|   |   |   |--- cellular_anatomical_entity <= 0.18
+|   |   |   |   |--- cellular_anatomical_entity <= 0.08
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.08
+|   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.18
+|   |   |   |   |--- class: 1
+|   |   |--- biological_regulation >  0.10
+|   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |--- class: 1
+|   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.04
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.15
+|   |   |--- cellular_process <= 0.24
+|   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |   |--- binding <= 0.79
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.79
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |--- class: 1
+|   |   |--- cellular_process >  0.24
+|   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |--- immune_system_process <= 0.83
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- immune_system_process >  0.83
+|   |   |   |   |   |--- localization <= 0.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.45
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |--- cellular_process <= 0.38
+|   |   |   |   |   |--- cellular_process <= 0.38
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.38
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.38
+|   |   |   |   |   |--- class: 1
+
