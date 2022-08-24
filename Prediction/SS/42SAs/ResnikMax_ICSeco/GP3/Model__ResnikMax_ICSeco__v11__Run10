@@ -1,0 +1,1 @@
+min(mul(add(X17, X17), max(X17, X4)), max(max(X17, X32), X4))
