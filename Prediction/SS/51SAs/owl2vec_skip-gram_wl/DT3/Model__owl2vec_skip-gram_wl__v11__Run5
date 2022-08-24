@@ -1,0 +1,11 @@
+|--- cellular_process <= 0.48
+|   |--- cellular_anatomical_entity <= 0.43
+|   |   |--- class: 0
+|   |--- cellular_anatomical_entity >  0.43
+|   |   |--- cellular_process <= 0.39
+|   |   |   |--- class: 0
+|   |   |--- cellular_process >  0.39
+|   |   |   |--- class: 1
+|--- cellular_process >  0.48
+|   |--- class: 1
+
