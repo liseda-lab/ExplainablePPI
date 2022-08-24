@@ -1,0 +1,11 @@
+|--- biological_process <= 0.61
+|   |--- biological_process <= 0.53
+|   |   |--- class: 0
+|   |--- biological_process >  0.53
+|   |   |--- molecular_function <= 0.68
+|   |   |   |--- class: 0
+|   |   |--- molecular_function >  0.68
+|   |   |   |--- class: 1
+|--- biological_process >  0.61
+|   |--- class: 1
+

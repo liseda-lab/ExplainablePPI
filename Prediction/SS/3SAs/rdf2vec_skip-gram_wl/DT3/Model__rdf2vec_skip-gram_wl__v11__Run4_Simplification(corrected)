@@ -1,0 +1,4 @@
+if (biological_process <= 0.5298484265804291): class = 0
+if (0.5298484265804291 < biological_process <= 0.6049164235591888) and (molecular_function <= 0.7804057896137238): class = 0
+if (0.5298484265804291 < biological_process <= 0.6049164235591888) and (molecular_function > 0.7804057896137238): class = 1
+if (biological_process > 0.6049164235591888): class = 1

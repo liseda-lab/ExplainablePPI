@@ -1,0 +1,5 @@
+|--- biological_process <= 0.62
+|   |--- class: 0
+|--- biological_process >  0.62
+|   |--- class: 1
+

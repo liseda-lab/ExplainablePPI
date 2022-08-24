@@ -1,0 +1,2 @@
+if (biological_process <= 0.6166362166404724): class = 0
+if (biological_process > 0.6166362166404724): class = 1
