@@ -1,0 +1,128 @@
+|--- cellular_process <= 0.08
+|   |--- cellular_anatomical_entity <= 0.19
+|   |   |--- cellular_anatomical_entity <= 0.00
+|   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |--- binding <= 0.27
+|   |   |   |   |   |--- binding <= 0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.27
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.00
+|   |   |   |   |--- binding <= 0.65
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.27
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.27
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.65
+|   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- cellular_anatomical_entity >  0.00
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- biological_regulation <= 0.07
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.20
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.20
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_regulation >  0.07
+|   |   |   |   |   |--- molecular_function_regulator <= 0.37
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function_regulator >  0.37
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- interspecies_interaction_between_organisms <= 0.14
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- interspecies_interaction_between_organisms >  0.14
+|   |   |   |   |   |--- class: 1
+|   |--- cellular_anatomical_entity >  0.19
+|   |   |--- biological_regulation <= 0.10
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.30
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.30
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.07
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.07
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |--- catalytic_activity <= 0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- biological_regulation >  0.10
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- binding <= 0.10
+|   |   |   |   |   |--- biological_regulation <= 0.28
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.28
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.10
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- class: 1
+|--- cellular_process >  0.08
+|   |--- cellular_process <= 0.15
+|   |   |--- biological_regulation <= 0.10
+|   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |--- binding <= 0.19
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.19
+|   |   |   |   |   |--- metabolic_process <= 0.14
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- metabolic_process >  0.14
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |--- class: 1
+|   |   |--- biological_regulation >  0.10
+|   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |--- cellular_anatomical_entity <= 0.02
+|   |   |   |   |   |--- catalytic_activity <= 0.18
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.18
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_anatomical_entity >  0.02
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- multicellular_organismal_process >  0.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.15
+|   |   |--- cellular_process <= 0.25
+|   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |--- cellular_process <= 0.25
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.25
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_process >  0.25
+|   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |--- immune_system_process <= 0.83
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- immune_system_process >  0.83
+|   |   |   |   |   |--- localization <= 0.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.45
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |--- class: 1
+

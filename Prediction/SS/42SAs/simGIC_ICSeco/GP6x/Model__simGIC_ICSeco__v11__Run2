@@ -1,0 +1,1 @@
+add(min(add(max(X17, X32), add(max(max(X10, X16), X19), max(X17, X32))), 0.551), min(add(max(X36, X1), add(max(X17, X32), X4)), 0.551))
