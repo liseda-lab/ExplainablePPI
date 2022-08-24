@@ -1,0 +1,1 @@
+min(add(add(X22, X27), add(X27, X24)), div(X45, X16))
