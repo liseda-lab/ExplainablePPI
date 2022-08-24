@@ -1,0 +1,11 @@
+Run	SimplifiedExpression	Depth	VariablesFrequency
+1	Max(0.048, cellular_component - 0.717, Min(3*biological_process - 1.434, Max(biological_process, cellular_component)))	4	[(biological_process, 2), (cellular_component, 2)]
+2	Max(-0.044, 2*cellular_component - 1.716, Max(cellular_component, molecular_function) - 0.794, biological_process + Max(biological_process, cellular_component, molecular_function) - 0.996)	3	[(cellular_component, 3), (molecular_function, 2), (biological_process, 2)]
+3	Max(cellular_component - 0.824, Min(biological_process, Max(-0.017, 2*biological_process - 0.824, biological_process + molecular_function - 0.917)))	5	[(biological_process, 3), (molecular_function, 1), (cellular_component, 1)]
+4	Max(0.127, Min(biological_process + Max(biological_process, biological_process + cellular_component - 0.656) - 0.872, Max(biological_process, cellular_component)))	5	[(biological_process, 4), (cellular_component, 2)]
+5	Max(0.217, biological_process) - 0.159	2	[(biological_process, 1)]
+6	Max(0.027, Min(0.027, biological_process - 0.95) + Min(Max(biological_process, Min(cellular_component, molecular_function)) + 0.202, Max(biological_process, cellular_component, molecular_function)))	6	[(biological_process, 3), (molecular_function, 2), (cellular_component, 2)]
+7	Max(Max(0.169, cellular_component - 0.65, biological_process + cellular_component - 0.989) - 0.17, Min(biological_process, 3*biological_process - 1.638), Min(cellular_component, 2*biological_process + cellular_component - 1.639))	4	[(biological_process, 4), (cellular_component, 4)]
+8	Max(0.084, Min(2*biological_process - 0.764, Max(biological_process, cellular_component, molecular_function)))	4	[(biological_process, 2), (molecular_function, 1), (cellular_component, 1)]
+9	Min(Max(0.165, biological_process), Max(cellular_component, Max(0.165, biological_process) - 0.063)) - 0.098	5	[(biological_process, 2), (cellular_component, 1)]
+10	Max(Max(0.55, biological_process, Max(biological_process, cellular_component) + Max(cellular_component, molecular_function) - 1.206) - 0.449, Min(2*biological_process + Max(cellular_component, molecular_function) - 1.605, Max(biological_process, cellular_component, molecular_function)))	4	[(cellular_component, 4), (biological_process, 4), (molecular_function, 3)]
