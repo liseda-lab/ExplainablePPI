@@ -1,0 +1,101 @@
+|--- biological_process <= 0.43
+|   |--- biological_process <= 0.34
+|   |   |--- molecular_function <= 0.07
+|   |   |   |--- biological_process <= 0.12
+|   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |--- molecular_function <= 0.04
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- molecular_function >  0.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- biological_process >  0.12
+|   |   |   |   |--- molecular_function <= 0.06
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- molecular_function >  0.06
+|   |   |   |   |   |--- biological_process <= 0.24
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.24
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- molecular_function >  0.07
+|   |   |   |--- cellular_component <= 0.44
+|   |   |   |   |--- biological_process <= 0.25
+|   |   |   |   |   |--- biological_process <= -0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  -0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.25
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_component >  0.44
+|   |   |   |   |--- molecular_function <= 0.53
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- molecular_function >  0.53
+|   |   |   |   |   |--- class: 1
+|   |--- biological_process >  0.34
+|   |   |--- cellular_component <= 0.46
+|   |   |   |--- molecular_function <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- molecular_function >  0.50
+|   |   |   |   |--- molecular_function <= 0.56
+|   |   |   |   |   |--- cellular_component <= 0.18
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.18
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.56
+|   |   |   |   |   |--- class: 1
+|   |   |--- cellular_component >  0.46
+|   |   |   |--- cellular_component <= 0.53
+|   |   |   |   |--- molecular_function <= 0.51
+|   |   |   |   |   |--- biological_process <= 0.38
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_process >  0.38
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.51
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_component >  0.53
+|   |   |   |   |--- class: 1
+|--- biological_process >  0.43
+|   |--- biological_process <= 0.51
+|   |   |--- cellular_component <= 0.37
+|   |   |   |--- molecular_function <= 0.43
+|   |   |   |   |--- biological_process <= 0.48
+|   |   |   |   |   |--- cellular_component <= 0.29
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.29
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_process >  0.48
+|   |   |   |   |   |--- biological_process <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- molecular_function >  0.43
+|   |   |   |   |--- class: 1
+|   |   |--- cellular_component >  0.37
+|   |   |   |--- class: 1
+|   |--- biological_process >  0.51
+|   |   |--- biological_process <= 0.58
+|   |   |   |--- cellular_component <= 0.30
+|   |   |   |   |--- molecular_function <= 0.63
+|   |   |   |   |   |--- molecular_function <= 0.16
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.63
+|   |   |   |   |   |--- molecular_function <= 0.87
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- molecular_function >  0.87
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_component >  0.30
+|   |   |   |   |--- class: 1
+|   |   |--- biological_process >  0.58
+|   |   |   |--- biological_process <= 0.63
+|   |   |   |   |--- class: 1
+|   |   |   |--- biological_process >  0.63
+|   |   |   |   |--- biological_process <= 0.98
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- biological_process >  0.98
+|   |   |   |   |   |--- molecular_function <= 0.47
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.47
+|   |   |   |   |   |   |--- class: 1
+
