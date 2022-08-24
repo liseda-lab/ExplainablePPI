@@ -1,0 +1,2306 @@
+|--- cellular_process <= 0.08
+|   |--- cellular_anatomical_entity <= 0.19
+|   |   |--- cellular_anatomical_entity <= 0.00
+|   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |--- binding <= 0.27
+|   |   |   |   |   |--- binding <= 0.01
+|   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.55
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.55
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.01
+|   |   |   |   |   |   |--- binding <= 0.09
+|   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.09
+|   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.27
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.25
+|   |   |   |   |   |   |--- binding <= 0.93
+|   |   |   |   |   |   |   |--- binding <= 0.60
+|   |   |   |   |   |   |   |   |--- binding <= 0.49
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.49
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.60
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- binding >  0.93
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.20
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.04
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.20
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- multicellular_organismal_process >  0.25
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.00
+|   |   |   |   |--- binding <= 0.65
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.27
+|   |   |   |   |   |   |--- biological_regulation <= 0.45
+|   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.50
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- translation_regulator_activity >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.45
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- multicellular_organismal_process >  0.27
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.65
+|   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_anatomical_entity >  0.00
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- biological_regulation <= 0.07
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.20
+|   |   |   |   |   |   |--- biological_adhesion <= 0.18
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.08
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.33
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 29
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- localization >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.33
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.08
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.16
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 31
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.16
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- biological_adhesion >  0.18
+|   |   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |   |--- binding <= 0.13
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.13
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- multicellular_organismal_process >  0.20
+|   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.04
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_regulation >  0.07
+|   |   |   |   |   |--- molecular_function_regulator <= 0.37
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.12
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.12
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |--- immune_system_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- binding >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- immune_system_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.08
+|   |   |   |   |   |   |   |   |--- molecular_adaptor_activity <= 0.04
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- signaling <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- signaling >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_adaptor_activity >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.08
+|   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- molecular_function_regulator >  0.37
+|   |   |   |   |   |   |--- biological_regulation <= 0.19
+|   |   |   |   |   |   |   |--- cellular_process <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- biological_regulation >  0.19
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- interspecies_interaction_between_organisms <= 0.14
+|   |   |   |   |   |--- biological_regulation <= 0.06
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.07
+|   |   |   |   |   |   |   |--- localization <= 0.17
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.54
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.54
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- localization >  0.17
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.06
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.06
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.07
+|   |   |   |   |   |   |   |--- localization <= 0.18
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.06
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.06
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- localization >  0.18
+|   |   |   |   |   |   |   |   |--- binding <= 0.21
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.21
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- localization >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_regulation >  0.06
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.04
+|   |   |   |   |   |   |   |--- locomotion <= 0.11
+|   |   |   |   |   |   |   |   |--- immune_system_process <= 0.03
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.33
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- immune_system_process >  0.03
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- locomotion >  0.11
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.04
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.12
+|   |   |   |   |   |   |   |   |--- locomotion <= 0.08
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- locomotion >  0.08
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- localization >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.12
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.15
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- binding >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- interspecies_interaction_between_organisms >  0.14
+|   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |--- immune_system_process <= 0.01
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.02
+|   |   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- metabolic_process >  0.02
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.73
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.73
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- immune_system_process >  0.01
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.01
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |--- metabolic_process <= 0.21
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.03
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.03
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- metabolic_process >  0.21
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.28
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.28
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |--- cellular_anatomical_entity >  0.19
+|   |   |--- biological_regulation <= 0.10
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.27
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.09
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.14
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- localization >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.14
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.27
+|   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.29
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |--- binding >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- localization >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.29
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.68
+|   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.20
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.20
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |--- localization <= 0.00
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- localization >  0.00
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.68
+|   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.70
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |--- cellular_anatomical_entity <= 0.30
+|   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.09
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- localization >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |--- binding <= 0.50
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.09
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_anatomical_entity >  0.30
+|   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.54
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.07
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.07
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.54
+|   |   |   |   |   |   |   |   |--- developmental_process <= 0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.48
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.48
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- developmental_process >  0.07
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.10
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.05
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- metabolic_process >  0.10
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.78
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.78
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.07
+|   |   |   |   |   |   |--- cellular_process <= 0.05
+|   |   |   |   |   |   |   |--- localization <= 0.01
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.67
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.67
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- localization >  0.01
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.36
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- transporter_activity >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- localization >  0.36
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- cellular_process >  0.05
+|   |   |   |   |   |   |   |--- localization <= 0.02
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.09
+|   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.09
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- binding >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- localization >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.28
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.28
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.07
+|   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.17
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.11
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.11
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.17
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |--- localization <= 0.18
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.11
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.11
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- localization >  0.18
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |--- catalytic_activity <= 0.00
+|   |   |   |   |   |   |--- cellular_process <= 0.07
+|   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.04
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.03
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.04
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.07
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- catalytic_activity >  0.00
+|   |   |   |   |   |   |--- cellular_process <= 0.06
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.59
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.02
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.59
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.06
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.04
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- metabolic_process >  0.04
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.43
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.43
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- biological_regulation >  0.10
+|   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |--- binding <= 0.10
+|   |   |   |   |   |--- biological_regulation <= 0.28
+|   |   |   |   |   |   |--- multicellular_organismal_process <= 0.06
+|   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.63
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.63
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- multicellular_organismal_process >  0.06
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.23
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.28
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.28
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.23
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.28
+|   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |--- developmental_process <= 0.38
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- developmental_process >  0.38
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.13
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.30
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.30
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- molecular_function_regulator >  0.13
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.70
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.70
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.10
+|   |   |   |   |   |--- biological_regulation <= 0.24
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.24
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.02
+|   |   |   |   |   |   |   |   |--- binding <= 0.16
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.16
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- locomotion >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.24
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.07
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.52
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.52
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.07
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.23
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.24
+|   |   |   |   |   |   |--- multicellular_organismal_process <= 0.07
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.07
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.39
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.39
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.07
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- multicellular_organismal_process >  0.07
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_process >  0.03
+|   |   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |   |--- binding <= 0.23
+|   |   |   |   |   |   |--- cellular_process <= 0.06
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.14
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.10
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.10
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- biological_regulation >  0.14
+|   |   |   |   |   |   |   |   |--- binding <= 0.20
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.20
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.06
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.11
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.24
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.24
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.49
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.11
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.19
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.19
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- binding >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.23
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.40
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.02
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.13
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.02
+|   |   |   |   |   |   |   |   |--- localization <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- localization >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.40
+|   |   |   |   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.48
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |   |--- developmental_process <= 0.00
+|   |   |   |   |   |   |--- biological_regulation <= 0.12
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.10
+|   |   |   |   |   |   |   |   |--- binding <= 0.05
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_regulation >  0.10
+|   |   |   |   |   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.12
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.07
+|   |   |   |   |   |   |   |   |--- localization <= 0.02
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- localization >  0.02
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- multi-organism_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.07
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- developmental_process >  0.00
+|   |   |   |   |   |   |--- binding <= 0.58
+|   |   |   |   |   |   |   |--- signaling <= 0.33
+|   |   |   |   |   |   |   |   |--- reproductive_process <= 0.37
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- reproductive_process >  0.37
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- signaling >  0.33
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.58
+|   |   |   |   |   |   |   |--- class: 0
+|--- cellular_process >  0.08
+|   |--- cellular_process <= 0.15
+|   |   |--- biological_regulation <= 0.10
+|   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |--- binding <= 0.19
+|   |   |   |   |   |--- cellular_process <= 0.11
+|   |   |   |   |   |   |--- biological_regulation <= 0.04
+|   |   |   |   |   |   |   |--- biological_adhesion <= 0.03
+|   |   |   |   |   |   |   |   |--- localization <= 0.46
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- localization >  0.46
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- biological_adhesion >  0.03
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.04
+|   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.05
+|   |   |   |   |   |   |   |   |   |--- locomotion <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- locomotion >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.09
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.09
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_process >  0.11
+|   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |--- localization <= 0.36
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.38
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.38
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- localization >  0.36
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |   |   |   |   |--- developmental_process <= 0.17
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- developmental_process >  0.17
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- binding >  0.19
+|   |   |   |   |   |--- metabolic_process <= 0.14
+|   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.22
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- metabolic_process >  0.14
+|   |   |   |   |   |   |--- structural_molecule_activity <= 0.50
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.05
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.05
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- translation_regulator_activity >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.05
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.05
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.15
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.15
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- structural_molecule_activity >  0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |--- metabolic_process <= 0.31
+|   |   |   |   |   |--- binding <= 0.16
+|   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.18
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- structural_molecule_activity >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.18
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.13
+|   |   |   |   |   |   |   |   |   |--- signaling <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- signaling >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.01
+|   |   |   |   |   |   |   |   |--- localization <= 0.01
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- localization >  0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- localization <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- localization >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.01
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- reproductive_process >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- binding >  0.16
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.23
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.02
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- binding >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.23
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.08
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |--- metabolic_process >  0.08
+|   |   |   |   |   |   |   |   |--- metabolic_process <= 0.18
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.36
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.36
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- metabolic_process >  0.18
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.29
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.29
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- metabolic_process >  0.31
+|   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |   |   |   |--- binding <= 0.48
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.11
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.11
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.48
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.12
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.02
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.01
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- molecular_function_regulator >  0.02
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.12
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.12
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |--- binding <= 0.32
+|   |   |   |   |   |   |   |--- metabolic_process <= 0.32
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- metabolic_process >  0.32
+|   |   |   |   |   |   |   |   |--- developmental_process <= 0.05
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.29
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.29
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- developmental_process >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- binding >  0.32
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- biological_regulation >  0.10
+|   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |--- cellular_anatomical_entity <= 0.02
+|   |   |   |   |   |--- catalytic_activity <= 0.18
+|   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.12
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- locomotion <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- locomotion >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.12
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- catalytic_activity >  0.18
+|   |   |   |   |   |   |--- molecular_function_regulator <= 0.06
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- molecular_function_regulator >  0.06
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_anatomical_entity >  0.02
+|   |   |   |   |   |--- multicellular_organismal_process <= 0.01
+|   |   |   |   |   |   |--- locomotion <= 0.16
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.00
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- catalytic_activity >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.03
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- locomotion >  0.16
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- multicellular_organismal_process >  0.01
+|   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.18
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.18
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.05
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- cellular_anatomical_entity >  0.05
+|   |   |   |   |--- response_to_stimulus <= 0.07
+|   |   |   |   |   |--- biological_regulation <= 0.13
+|   |   |   |   |   |   |--- biological_regulation <= 0.13
+|   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.06
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- localization >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.06
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.07
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.07
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.13
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_regulation >  0.13
+|   |   |   |   |   |   |--- localization <= 0.00
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.29
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.27
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- binding >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.27
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.29
+|   |   |   |   |   |   |   |   |--- immune_system_process <= 0.04
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- immune_system_process >  0.04
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- localization >  0.00
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.51
+|   |   |   |   |   |   |   |   |--- localization <= 0.47
+|   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- localization >  0.47
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.51
+|   |   |   |   |   |   |   |   |--- binding <= 0.64
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- binding >  0.64
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- response_to_stimulus >  0.07
+|   |   |   |   |   |--- developmental_process <= 0.25
+|   |   |   |   |   |   |--- binding <= 0.06
+|   |   |   |   |   |   |   |--- binding <= 0.06
+|   |   |   |   |   |   |   |   |--- immune_system_process <= 0.01
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- immune_system_process >  0.01
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- binding >  0.06
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.06
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.86
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.11
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.11
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.86
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.16
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.16
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- developmental_process >  0.25
+|   |   |   |   |   |   |--- binding <= 0.11
+|   |   |   |   |   |   |   |--- developmental_process <= 0.47
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- developmental_process >  0.47
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- binding >  0.11
+|   |   |   |   |   |   |   |--- class: 1
+|   |--- cellular_process >  0.15
+|   |   |--- cellular_process <= 0.25
+|   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |--- response_to_stimulus <= 0.01
+|   |   |   |   |   |--- binding <= 0.10
+|   |   |   |   |   |   |--- localization <= 0.51
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.03
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.20
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.20
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.24
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- biological_regulation >  0.03
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process <= 0.02
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- multicellular_organismal_process >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- localization >  0.51
+|   |   |   |   |   |   |   |--- immune_system_process <= 0.71
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- immune_system_process >  0.71
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.10
+|   |   |   |   |   |   |--- metabolic_process <= 0.28
+|   |   |   |   |   |   |   |--- cellular_process <= 0.21
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.06
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.46
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.46
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.06
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.21
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.11
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- metabolic_process >  0.28
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.03
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.03
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.18
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.18
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- response_to_stimulus >  0.01
+|   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |--- cellular_process <= 0.18
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.02
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.18
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.04
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.04
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |--- binding <= 0.67
+|   |   |   |   |   |   |   |--- behavior <= 0.02
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.10
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.57
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- catalytic_activity >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.57
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- interspecies_interaction_between_organisms >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.10
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- behavior >  0.02
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.08
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.67
+|   |   |   |   |   |   |   |--- catalytic_activity <= 0.38
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- catalytic_activity >  0.38
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.11
+|   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |--- biological_regulation <= 0.15
+|   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.25
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.25
+|   |   |   |   |   |   |   |   |--- localization <= 0.90
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.17
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.17
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- localization >  0.90
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.25
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_anatomical_entity >  0.25
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.26
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.15
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- biological_adhesion >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.26
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.32
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.32
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- biological_regulation >  0.15
+|   |   |   |   |   |   |--- cellular_process <= 0.17
+|   |   |   |   |   |   |   |--- cellular_process <= 0.17
+|   |   |   |   |   |   |   |   |--- locomotion <= 0.58
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.63
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.63
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- locomotion >  0.58
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- binding >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_process >  0.17
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.05
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- cellular_process >  0.17
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.94
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.90
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.90
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.94
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.23
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |--- cellular_process <= 0.25
+|   |   |   |   |   |   |--- cellular_process <= 0.19
+|   |   |   |   |   |   |   |--- cellular_process <= 0.19
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |   |   |--- signaling <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- signaling >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- developmental_process >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- cellular_process >  0.19
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.19
+|   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.08
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- biological_regulation >  0.08
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.25
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.43
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.43
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.25
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- cellular_process >  0.25
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- cellular_process >  0.25
+|   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |--- immune_system_process <= 0.83
+|   |   |   |   |   |--- binding <= 0.09
+|   |   |   |   |   |   |--- binding <= 0.09
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |--- cellular_process <= 0.29
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_process >  0.29
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.19
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.19
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.16
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- biological_regulation >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- binding >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- binding >  0.09
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- binding >  0.09
+|   |   |   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.17
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- molecular_function_regulator >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.00
+|   |   |   |   |   |   |   |   |--- binding <= 0.13
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.13
+|   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.46
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- cellular_process >  0.46
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- immune_system_process >  0.83
+|   |   |   |   |   |--- localization <= 0.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- localization >  0.45
+|   |   |   |   |   |   |--- cellular_process <= 0.51
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.51
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_anatomical_entity >  0.17
+|   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |--- cellular_process <= 0.41
+|   |   |   |   |   |   |--- immune_system_process <= 0.75
+|   |   |   |   |   |   |   |--- response_to_stimulus <= 0.02
+|   |   |   |   |   |   |   |   |--- response_to_stimulus <= 0.02
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- immune_system_process >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- molecular_transducer_activity >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- response_to_stimulus >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- response_to_stimulus >  0.02
+|   |   |   |   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |   |   |   |--- binding <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- binding >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- binding <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- binding >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- immune_system_process >  0.75
+|   |   |   |   |   |   |   |--- localization <= 0.43
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- localization >  0.43
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.28
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.28
+|   |   |   |   |   |   |   |   |   |--- localization <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- localization >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_process >  0.41
+|   |   |   |   |   |--- immune_system_process <= 0.97
+|   |   |   |   |   |   |--- cellular_process <= 0.58
+|   |   |   |   |   |   |   |--- cellular_process <= 0.58
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.24
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- cellular_process >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.24
+|   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- metabolic_process >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |--- cellular_process >  0.58
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cellular_process >  0.58
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- immune_system_process >  0.97
+|   |   |   |   |   |   |--- biological_regulation <= 0.00
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.39
+|   |   |   |   |   |   |   |   |--- binding <= 0.07
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- binding >  0.07
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity <= 0.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.38
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- cellular_anatomical_entity >  0.39
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- biological_regulation >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+
