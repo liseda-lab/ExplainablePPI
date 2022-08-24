@@ -1,0 +1,92 @@
+|--- biological_process <= 0.63
+|   |--- molecular_function <= 0.49
+|   |   |--- biological_process <= 0.02
+|   |   |   |--- molecular_function <= 0.05
+|   |   |   |   |--- cellular_component <= 0.08
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_component >  0.08
+|   |   |   |   |   |--- cellular_component <= 0.56
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.56
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- molecular_function >  0.05
+|   |   |   |   |--- cellular_component <= 0.68
+|   |   |   |   |   |--- molecular_function <= 0.48
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- molecular_function >  0.48
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_component >  0.68
+|   |   |   |   |   |--- cellular_component <= 0.85
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_component >  0.85
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- biological_process >  0.02
+|   |   |   |--- biological_process <= 0.52
+|   |   |   |   |--- class: 0
+|   |   |   |--- biological_process >  0.52
+|   |   |   |   |--- cellular_component <= 0.88
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_component >  0.88
+|   |   |   |   |   |--- biological_process <= 0.52
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.52
+|   |   |   |   |   |   |--- class: 0
+|   |--- molecular_function >  0.49
+|   |   |--- molecular_function <= 0.50
+|   |   |   |--- biological_process <= 0.08
+|   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |--- cellular_component <= 0.93
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cellular_component >  0.93
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- biological_process >  0.08
+|   |   |   |   |--- cellular_component <= 0.84
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_component >  0.84
+|   |   |   |   |   |--- class: 1
+|   |   |--- molecular_function >  0.50
+|   |   |   |--- biological_process <= 0.52
+|   |   |   |   |--- cellular_component <= 0.88
+|   |   |   |   |   |--- biological_process <= 0.02
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- biological_process >  0.02
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cellular_component >  0.88
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- biological_process >  0.52
+|   |   |   |   |--- molecular_function <= 0.71
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- molecular_function >  0.71
+|   |   |   |   |   |--- class: 1
+|--- biological_process >  0.63
+|   |--- biological_process <= 0.77
+|   |   |--- cellular_component <= 0.73
+|   |   |   |--- molecular_function <= 0.49
+|   |   |   |   |--- cellular_component <= 0.20
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cellular_component >  0.20
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- molecular_function >  0.49
+|   |   |   |   |--- biological_process <= 0.71
+|   |   |   |   |   |--- cellular_component <= 0.46
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- cellular_component >  0.46
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- biological_process >  0.71
+|   |   |   |   |   |--- class: 1
+|   |   |--- cellular_component >  0.73
+|   |   |   |--- cellular_component <= 0.88
+|   |   |   |   |--- molecular_function <= 0.80
+|   |   |   |   |   |--- biological_process <= 0.65
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- biological_process >  0.65
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- molecular_function >  0.80
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cellular_component >  0.88
+|   |   |   |   |--- class: 1
+|   |--- biological_process >  0.77
+|   |   |--- class: 1
+

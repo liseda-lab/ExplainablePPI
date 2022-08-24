@@ -1,0 +1,1 @@
+max(max(min(add(add(0.169, add(X0, -0.819)), add(add(-0.170, X0), add(X1, -0.819))), X1), min(add(add(X0, -0.819), add(add(X0, -0.819), X0)), X0)), add(-0.170, max(max(0.169, add(add(X1, -0.819), 0.169)), add(add(-0.170, X0), add(X1, -0.819)))))
