@@ -1,0 +1,1 @@
+min(max(max(add(add(X25, X9), -0.075), max(max(X13, X22), add(X24, -0.075))), add(max(X26, X36), -0.075)), max(add(max(X25, add(max(X26, X36), -0.075)), -0.075), max(X27, max(max(X0, X38), max(X9, add(-0.075, X11))))))
