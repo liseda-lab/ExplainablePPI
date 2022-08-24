@@ -1,0 +1,2 @@
+if (cellular_process <= 0.7849758267402649): class = 0
+if (cellular_process > 0.7849758267402649): class = 1

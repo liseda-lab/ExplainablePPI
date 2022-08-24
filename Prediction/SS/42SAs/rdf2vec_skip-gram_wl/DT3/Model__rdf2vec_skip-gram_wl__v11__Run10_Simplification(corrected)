@@ -1,0 +1,4 @@
+if (cellular_process <= 0.7037440538406372): class = 0
+if (cellular_anatomical_entity <= 0.8691545724868774) and (0.7037440538406372 < cellular_process <= 0.7836045324802399): class = 0
+if (cellular_anatomical_entity > 0.8691545724868774) and (0.7037440538406372 < cellular_process <= 0.7836045324802399): class = 1
+if (cellular_process > 0.7836045324802399): class = 1
