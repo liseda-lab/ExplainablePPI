@@ -1,0 +1,1 @@
+min(mul(mul(mul(max(max(X0, X1), X2), mul(X0, add(X2, X0))), max(X0, X1)), add(X0, mul(X0, mul(X0, mul(mul(max(mul(mul(mul(max(X0, X1), max(X0, X1)), sub(X0, -0.300)), sub(X0, -0.300)), X1), max(X0, X1)), sub(X0, -0.300)))))), max(max(mul(X0, X0), X1), X2))

@@ -1,0 +1,1 @@
+min(max(mul(max(X2, X0), max(X2, X0)), X1), mul(mul(min(X0, mul(mul(max(X2, X0), max(X0, X1)), add(mul(max(X2, X0), max(X2, X0)), max(X2, mul(max(X2, X0), add(mul(max(X2, X0), mul(max(X2, X0), max(X2, X0))), max(X2, X0))))))), max(X0, X1)), add(mul(mul(mul(max(X2, X0), max(mul(max(X2, X0), max(X2, X0)), X1)), max(X0, X1)), max(X2, X0)), X0)))
