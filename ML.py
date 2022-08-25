@@ -380,5 +380,9 @@ def _fitness_function_maxDepth6(y, y_pred, sample_weight, depth):
         rmse = rmse * 10
     return rmse
 
-
+def _fitness_function_maxDepth3(y, y_pred, sample_weight, depth):
+    rmse = np.sqrt(np.average((y_pred - y) ** 2))
+    if depth > 3:
+        rmse = rmse * 10
+    return rmse
 
