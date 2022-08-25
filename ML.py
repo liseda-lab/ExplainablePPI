@@ -15,6 +15,8 @@ from gplearn_variations.gp_Standard import fitness
 from gplearn_variations.gp_MaxDepth import genetic_withMaxDepth
 from gplearn_variations.gp_MaxDepth import fitness as fitness_withMaxDepth
 
+import matplotlib.pyplot as pl
+
 import warnings
 warnings.filterwarnings("ignore")
 
