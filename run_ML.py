@@ -186,7 +186,7 @@ def run_cross_validation(algorithms, path_file_SS, path_dataset_file, dataset_na
                 if algorithm == 'GP':
                     waf, fmeasure_noninteract, fmeasure_interact, precision, recall, accuracy = ML.performance_GP(X_train, X_test, y_train, y_test, path_output_predictions, filename_model_gp)
                 elif algorithm == 'GP6x':
-                    waf, fmeasure_noninteract, fmeasure_interact, precision, recall, accuracy = ML.performance_GP_MaxDepth(X_train, X_test, y_train, y_test, path_output_predictions, filename_model_gp, depth,  ['add', 'sub', 'max', 'min'])
+                    waf, fmeasure_noninteract, fmeasure_interact, precision, recall, accuracy = ML.performance_GP_MaxDepth(X_train, X_test, y_train, y_test, path_output_predictions, filename_model_gp, 6,  ['add', 'sub', 'max', 'min'])
                 else:
                     depth =algorithm.split('GP')[1]
                     waf, fmeasure_noninteract, fmeasure_interact, precision, recall, accuracy = ML.performance_GP_MaxDepth(X_train, X_test, y_train, y_test, path_output_predictions, filename_model_gp, depth)
