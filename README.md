@@ -9,8 +9,16 @@
 
 <img src="https://github.com/liseda-lab/ExplainablePPI/blob/main/Methodology.png"/>
 
-Run the command:
+## (1) Semantic Similarity Computation for each Semantic Aspect
 
+Run the command:
+```
+python3 run_SS_calculation_SAs.py
+```
+
+## (2) Supervised Similarity Learning
+
+Run the command:
 ```
 python3 run_ML.py
 ```
