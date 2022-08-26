@@ -19,7 +19,7 @@ from gplearn_variations.gp_MaxDepth import fitness as fitness_withMaxDepth
 import warnings
 warnings.filterwarnings("ignore")
 
-import simplificationDTs
+from Prediction import simplificationDTs
 
 ###################################
 #####      GP Parameters      #####
