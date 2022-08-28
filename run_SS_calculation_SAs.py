@@ -74,7 +74,6 @@ if __name__ == "__main__":
     path_SS = "SS_Calculation/SS_files/"
 
     semantic_aspects = ["roots", "subroots", "subroots_notLeave"]
-    semantic_aspects = ["subroots_notLeave"]
 
     for type_aspect in semantic_aspects:
         run_SS_calculation_SAs(kg_file, ontology, ontology_annotations, ontology_annotations_format, namespace, namespace_uri, dataset, dataset_file, entity_file, path_SS, path_output_embeddings, path_embSS, type_aspect)
