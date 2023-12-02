@@ -1,4 +1,4 @@
-<h1 align="center"> Prediction of Protein-Protein Interactions with Knowledge Graph-based Explainable Artificial Intelligence </h1>
+<h1 align="center"> Knowledge Graph-Based Explainable Protein-Protein Interaction Prediction </h1>
 
 ## Pre-requesites
 * install python 3.6.8;
