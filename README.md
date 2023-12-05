@@ -5,7 +5,7 @@
 * install java JDK 11.0.4;
 * install python libraries by running the following command:  ```pip install -r req.txt```.
 
-## Methods
+## KGsim2vec
 KGsim2vec is a novel method to generate explainable vector representations of entity pairs in a knowledge graph to support learning with minimal losses in performance when compared to opaque models. 
 This framework computes the explainable vector representations, then applies machine learning algorithms to generate predictive models, and finally generates explanations.
 
