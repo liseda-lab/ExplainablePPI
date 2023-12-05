@@ -1,4 +1,0 @@
-if (cellular_process <= 0.7037546038627625): class = 0
-if (cellular_anatomical_entity <= 0.8698505461215973) and (0.7037546038627625 < cellular_process <= 0.7854593098163605): class = 0
-if (cellular_anatomical_entity > 0.8698505461215973) and (0.7037546038627625 < cellular_process <= 0.7854593098163605): class = 1
-if (cellular_process > 0.7854593098163605): class = 1

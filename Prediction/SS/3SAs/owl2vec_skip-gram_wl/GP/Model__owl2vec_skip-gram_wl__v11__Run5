@@ -1,1 +1,0 @@
-add(min(X0, 0.768), min(0.410, mul(add(min(0.410, add(min(X0, add(X0, add(X0, sub(min(X0, add(X0, sub(X1, 0.410))), 0.410)))), min(X0, 0.768))), min(X2, div(0.776, X2))), add(mul(mul(mul(max(div(add(add(min(X0, X1), min(X0, 0.768)), min(X0, 0.768)), X2), div(X1, 0.096)), mul(X0, X1)), min(X0, 0.768)), X0), sub(div(add(X0, X1), div(0.776, X2)), 0.410)))))

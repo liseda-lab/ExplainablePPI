@@ -1,4 +1,0 @@
-if (biological_regulation <= 0.09722993522882462) and (cellular_process <= 0.08155965059995651): class = 0
-if (cellular_anatomical_entity <= 0.10320604220032692) and (biological_regulation > 0.09722993522882462) and (cellular_process <= 0.08155965059995651): class = 0
-if (cellular_anatomical_entity > 0.10320604220032692) and (biological_regulation > 0.09722993522882462) and (cellular_process <= 0.08155965059995651): class = 1
-if (cellular_process > 0.08155965059995651): class = 1

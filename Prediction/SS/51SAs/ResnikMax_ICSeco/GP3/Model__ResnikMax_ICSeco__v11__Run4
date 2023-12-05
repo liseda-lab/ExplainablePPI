@@ -1,1 +1,0 @@
-max(max(mul(X11, X11), sub(X0, X27)), max(X44, X27))

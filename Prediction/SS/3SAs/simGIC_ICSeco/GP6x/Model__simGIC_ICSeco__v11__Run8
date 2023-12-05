@@ -1,1 +1,0 @@
-add(min(min(0.510, add(add(X0, X0), add(X0, X0))), add(add(X1, X0), X0)), min(add(X0, X2), min(0.510, add(X1, X0))))

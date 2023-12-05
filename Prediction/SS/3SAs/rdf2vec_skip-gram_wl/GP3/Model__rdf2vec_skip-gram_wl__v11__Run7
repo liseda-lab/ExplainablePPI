@@ -1,1 +1,0 @@
-mul(add(max(X0, X2), 0.577), mul(X0, X0))

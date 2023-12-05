@@ -1,2 +1,0 @@
-if (biological_process <= 0.6185971796512604): class = 0
-if (biological_process > 0.6185971796512604): class = 1

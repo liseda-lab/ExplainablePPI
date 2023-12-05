@@ -1,1 +1,0 @@
-mul(mul(max(X0, X1), X0), max(X2, max(X0, X1)))

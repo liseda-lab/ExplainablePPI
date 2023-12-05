@@ -1,1 +1,0 @@
-add(add(add(min(add(X17, add(X39, X41)), 0.191), max(min(add(X17, X16), max(X20, 0.191)), min(max(X20, 0.191), add(X39, X41)))), add(min(add(X17, X16), max(X20, 0.191)), min(add(X17, X16), max(X34, 0.191)))), min(min(max(X20, 0.191), add(X33, X1)), add(X25, X1)))

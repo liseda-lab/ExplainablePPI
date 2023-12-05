@@ -1,1 +1,0 @@
-max(add(add(X0, -0.074), add(max(X2, max(X0, X1)), -0.922)), max(add(max(X2, X1), -0.794), max(add(add(X1, -0.922), add(X1, -0.794)), -0.044)))

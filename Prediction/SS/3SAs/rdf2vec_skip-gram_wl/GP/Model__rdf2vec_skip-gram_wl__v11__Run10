@@ -1,1 +1,0 @@
-min(div(X1, X1), mul(add(add(max(X0, mul(X1, X2)), X2), mul(X1, min(0.464, X1))), mul(X0, add(sub(max(X0, mul(X1, X2)), div(X1, X1)), sub(max(max(X0, sub(div(X1, X1), X1)), mul(mul(X1, X2), X1)), -0.315)))))

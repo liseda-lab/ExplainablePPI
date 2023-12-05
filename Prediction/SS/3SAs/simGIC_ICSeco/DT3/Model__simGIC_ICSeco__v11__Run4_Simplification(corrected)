@@ -1,6 +1,0 @@
-if (biological_process <= 0.05103156343102455): class = 0
-if (0.05103156343102455 < biological_process <= 0.09931229427456856) and (cellular_component <= 0.16348473727703094): class = 0
-if (0.05103156343102455 < biological_process <= 0.09931229427456856) and (cellular_component > 0.16348473727703094): class = 1
-if (0.09931229427456856 < biological_process <= 0.16271743923425674) and (cellular_component <= 0.1119125671684742): class = 0
-if (0.09931229427456856 < biological_process <= 0.16271743923425674) and (cellular_component > 0.1119125671684742): class = 1
-if (biological_process > 0.16271743923425674): class = 1

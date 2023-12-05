@@ -1,4 +1,0 @@
-if (biological_process <= 0.5289231240749359): class = 0
-if (0.5289231240749359 < biological_process <= 0.6063871085643768) and (molecular_function <= 0.7712396085262299): class = 0
-if (0.5289231240749359 < biological_process <= 0.6063871085643768) and (molecular_function > 0.7712396085262299): class = 1
-if (biological_process > 0.6063871085643768): class = 1

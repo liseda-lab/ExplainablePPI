@@ -1,1 +1,0 @@
-min(add(X0, add(X1, X0)), div(X0, X0))
