@@ -30,5 +30,5 @@ To evaluate the explanations, we considered two aspects: size and informativenes
 ## Run KGsim2vec
 Run the command:
 ```
-python3 run_kgsim2vec.py path_output path_ontology_file path_annotations_file path_pairs_file alpha gamma beta
+python3 run_kgsim2vec.py alpha gamma beta
 ```
