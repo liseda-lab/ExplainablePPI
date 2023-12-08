@@ -1,0 +1,6 @@
+WAF	1.0
+F-measure(class0)	1.0
+F-measure(class1)	1.0
+Precision	1.0
+Recall	1.0
+Accuracy	1.0

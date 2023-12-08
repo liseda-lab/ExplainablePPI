@@ -1,0 +1,9 @@
+P25789	P17980	if (cellular_anatomical_entity > 0.5787326395511627) and (protein_containing_complex > 0.47531501948833466) and (cellular_process > 0.7530770599842072): class = 1
+P82664	Q9Y399	if (cellular_anatomical_entity > 0.5787326395511627) and (protein_containing_complex > 0.47531501948833466) and (cellular_process > 0.7530770599842072): class = 1
+P43686	Q16186	if (cellular_anatomical_entity > 0.7588843107223511) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 1
+Q99741	O43929	if (cellular_anatomical_entity > 0.7972685098648071) and (protein_containing_complex <= 0.47531501948833466) and (metabolic_process > 0.49330995976924896) and (cellular_process > 0.7530770599842072): class = 1
+Q96EB6	O43524	if (cellular_anatomical_entity > 0.7972685098648071) and (protein_containing_complex <= 0.47531501948833466) and (metabolic_process <= 0.4790598303079605) and (cellular_process > 0.7530770599842072): class = 1
+P62875	Q9UBU7	if (cellular_anatomical_entity > 0.6680882275104523) and (protein_containing_complex <= 0.47531501948833466) and (cellular_process <= 0.6145413517951965) and (biological_regulation <= 0.5483885407447815): class = 0
+O75817	Q9UBV8	if (0.1161932721734047 < cellular_anatomical_entity <= 0.6680882275104523) and (protein_containing_complex <= 0.47531501948833466) and (metabolic_process <= 0.6625352501869202) and (cellular_process <= 0.6145413517951965) and (biological_regulation <= 0.5483885407447815): class = 0
+Q7Z7A1	Q96AH0	if (cellular_anatomical_entity > 0.6680882275104523) and (protein_containing_complex <= 0.47531501948833466) and (cellular_process <= 0.6145413517951965) and (biological_regulation <= 0.5483885407447815): class = 0
+Q13608	O00623	if (cellular_anatomical_entity > 0.7972685098648071) and (protein_containing_complex <= 0.47531501948833466) and (metabolic_process <= 0.4790598303079605) and (cellular_process > 0.7530770599842072): class = 1

@@ -1,0 +1,6 @@
+WAF	0.738095238095238
+F-measure(class0)	0.5
+F-measure(class1)	0.8571428571428571
+Precision	0.75
+Recall	1.0
+Accuracy	0.7777777777777778
