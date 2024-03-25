@@ -35,7 +35,7 @@ Run the command:
 python3 run_kgsim2vec.py alpha gamma beta
 ```
 
-## How to cite
+## How to Cite
 
 ```
 @article {PMID:38308873,
