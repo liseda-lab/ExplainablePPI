@@ -1,6 +1,6 @@
 <h1 align="center"> Explaining Protein-Protein Interactions with Knowledge Graph-based Semantic Similarity </h1>
 
-This repository provides an implementation described in the paper: https://www.sciencedirect.com/science/article/pii/S0010482524001604
+This repository provides an implementation described in the paper: https://www.sciencedirect.com/science/article/pii/S0010482524001604.
 
 ## Pre-requesites
 * install python 3.6.8;
