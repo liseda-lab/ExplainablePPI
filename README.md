@@ -1,5 +1,7 @@
 <h1 align="center"> Explaining Protein-Protein Interactions with Knowledge Graph-based Semantic Similarity </h1>
 
+This repository provides an implementation described in the paper: https://www.sciencedirect.com/science/article/pii/S0010482524001604
+
 ## Pre-requesites
 * install python 3.6.8;
 * install java JDK 11.0.4;
@@ -31,4 +33,21 @@ To evaluate the explanations, we considered two aspects: size and informativenes
 Run the command:
 ```
 python3 run_kgsim2vec.py alpha gamma beta
+```
+
+## How to cite
+
+```
+@article {PMID:38308873,
+	Title = {Explaining protein-protein interactions with knowledge graph-based semantic similarity},
+	Author = {Sousa, Rita T and Silva, Sara and Pesquita, Catia},
+	DOI = {10.1016/j.compbiomed.2024.108076},
+	Volume = {170},
+	Month = {March},
+	Year = {2024},
+	Journal = {Computers in Biology and Medicine},
+	ISSN = {0010-4825},
+	Pages = {108076},
+	URL = {https://doi.org/10.1016/j.compbiomed.2024.108076},
+}
 ```
